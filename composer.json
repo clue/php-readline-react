@@ -1,0 +1,11 @@
+{
+    "name": "clue/readline-react",
+    "require": {
+        "ext-readline": "*",
+        "evenement/evenement": "1.*",
+        "react/event-loop": "0.3.*"
+    },
+    "autoload": {
+        "psr-0": { "Clue\\Readline\\React": "src/" }
+    }
+}
