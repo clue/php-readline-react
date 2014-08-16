@@ -1,6 +1,6 @@
 <?php
 
-namespace Clue\Readline\React;
+namespace Clue\React\Readline;
 
 use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
