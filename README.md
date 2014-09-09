@@ -6,8 +6,7 @@ Experimental bindings for the readline extension (ext-readline)
 
 ## Quickstart example
 
-Once [installed](#install), you can use the following code to fetch package
-information from packagist.org:
+Once [installed](#install), you can use the following code to present a prompt in a CLI program:
 
 ```php
 $readline = new Readline($loop, 'demo > ');
@@ -20,6 +19,8 @@ $readline->on('line', function ($line) use ($readline) {
     }
 });
 ```
+
+See also the [examples](examples).
 
 ## Install
 
