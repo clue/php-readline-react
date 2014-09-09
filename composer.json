@@ -1,5 +1,15 @@
 {
     "name": "clue/readline-react",
+    "description": "Experimental bindings for the readline extension (ext-readline)",
+    "keywords": ["readline", "ext-readline", "ReactPHP", "async"],
+    "homepage": "https://github.com/clue/php-readline-react",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@lueck.tv"
+        }
+    ],
     "require": {
         "ext-readline": "*",
         "evenement/evenement": "1.*",
