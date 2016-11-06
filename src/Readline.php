@@ -120,6 +120,7 @@ class Readline extends EventEmitter
             if ($this->autohistory) {
                 $this->addHistory($line);
             }
+            readline_callback_handler_install($this->prompt, array($this, 'handleLine'));
         }
     }
 
